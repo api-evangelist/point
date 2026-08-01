@@ -1,8 +1,28 @@
 aid: point
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/point.png
 name: Point
-description: Point is a company surfaced as a portfolio company of a16z, bloomberg-beta, ribbit-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Point (Point Digital Finance, Inc.) is a San Francisco fintech founded in 2015 by
+  Eddie Lim, Eoin Matthews, and Alex Rampell that gives homeowners access to their home
+  equity without monthly payments or income requirements. Its flagship Home Equity
+  Investment (HEI) provides lump sums up to $600,000 in exchange for a share of a home's
+  future appreciation over a 30-year term, alongside a HELOC product offering lines up to
+  $750,000. Point has served more than 25,000 homeowners and facilitated over $2 billion in
+  home equity investments, and is backed by a16z, Bloomberg Beta, and Ribbit Capital. Point
+  is a consumer-facing platform with no public developer API; this profile was surfaced as a
+  VC-portfolio lead and enriched with the API Evangelist pipeline (identity + domain-security
+  probe only — no API surface found).
 url: https://raw.githubusercontent.com/api-evangelist/point/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Home Equity
+- Mortgage
+- Lending
+- Real Estate
+- Consumer Finance
+- HELOC
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,16 @@ maintainers:
 common:
 - type: Website
   url: https://point.com/
+- type: Blog
+  url: https://point.com/blog
+- type: SignUp
+  url: https://point.com/flex/compare
+- type: Login
+  url: https://home.point.com/dashboard/login
+- type: DomainSecurity
+  url: security/point-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
