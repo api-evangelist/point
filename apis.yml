@@ -52,7 +52,7 @@ tags:
 - Home Equity
 - Mortgage
 - Lending
-- Real-Estate
+- Real Estate
 - Consumer Finance
 - HELOC
 tags_raw:
@@ -64,6 +64,7 @@ tags_raw:
 - Real Estate
 - Consumer Finance
 - HELOC
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
